@@ -90,7 +90,7 @@ Pod::Spec.new do |spec|
   #
   spec.ios.deployment_target = '8.0'
   spec.requires_arc = true 
-  spec.source_files  = 'TestView/**/*.{h,m}'
+  spec.source_files  = 'TestView/TestView/*.{h,m}'
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
